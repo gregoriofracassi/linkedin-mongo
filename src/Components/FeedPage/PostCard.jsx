@@ -1,5 +1,5 @@
-import React from "react";
-import "./Post.css";
+import React from "react"
+import "./Post.css"
 import {
   Card,
   Col,
@@ -11,10 +11,9 @@ import {
   Accordion,
   DropdownButton,
   Dropdown,
-} from "react-bootstrap";
-import "bootstrap-icons/font/bootstrap-icons.css";
-import MediaModal from "../MediaModal";
-import { Link } from "react-router-dom";
+} from "react-bootstrap"
+import "bootstrap-icons/font/bootstrap-icons.css"
+import { Link } from "react-router-dom"
 
 function PostCard(props) {
   return (
@@ -144,7 +143,7 @@ function PostCard(props) {
         </Card.Body>
       </Card>
     </Accordion>
-  );
+  )
 }
 
-export default PostCard;
+export default PostCard

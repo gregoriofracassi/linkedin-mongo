@@ -7,7 +7,7 @@ const SkillsCard = (props) => {
       <p className="skills-title">{props.title}</p>
       <Row className="my-2">
         <Col xs={1}>
-          <img className="img-fluid" src={props.img} />
+          <img alt="" className="img-fluid" src={props.img} />
         </Col>
 
         <Col xs={11}>

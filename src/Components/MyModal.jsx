@@ -1,13 +1,5 @@
 import React from "react"
-import {
-  Modal,
-  Button,
-  Form,
-  FormControl,
-  Col,
-  Row,
-  InputGroup,
-} from "react-bootstrap"
+import { Modal, Button, Form } from "react-bootstrap"
 import { useState } from "react"
 
 export default function ModalShow(props) {

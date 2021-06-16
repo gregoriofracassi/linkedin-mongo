@@ -1,4 +1,3 @@
-import ExpEduCard from "./ExpEduCard"
 import AccomplishmentsCard from "./AccomplishmentsCard"
 const AccomplishmentsContent = (props) => {
   return (

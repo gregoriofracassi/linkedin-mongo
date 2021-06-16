@@ -109,7 +109,7 @@ class ExpEduCard extends React.Component {
     return (
       <Row className="my-4">
         <Col xs={2}>
-          <img className="img-fluid px-3" src={this.props.img} />
+          <img alt="" className="img-fluid px-3" src={this.props.img} />
         </Col>
 
         <Col xs={8}>

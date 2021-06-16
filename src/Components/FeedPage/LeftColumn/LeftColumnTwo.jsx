@@ -1,7 +1,7 @@
-import React from "react";
-import "../Post.css";
-import { Accordion, Card, Button } from "react-bootstrap";
-import "bootstrap-icons/font/bootstrap-icons.css";
+import React from "react"
+import "../Post.css"
+import { Accordion, Card } from "react-bootstrap"
+import "bootstrap-icons/font/bootstrap-icons.css"
 
 export default function LeftColumnTwo() {
   return (
@@ -98,5 +98,5 @@ export default function LeftColumnTwo() {
         </Card>
       </Accordion>
     </>
-  );
+  )
 }

@@ -1,16 +1,16 @@
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import "../CardProfile.css";
-import AddPost from "./AddPost";
-import GetPost from "./FeedPage/GetPost";
-import React from "react";
-import LeftColumnHomeFeed from "./FeedPage/LeftColumn/LeftColumnHomeFeed";
-import RightColumnHomeFeed from "./FeedPage/RightColumn/RightColumnHomeFeed";
-import "./FeedPage/Post.css";
+import { Container, Row, Col } from "react-bootstrap"
+import "../CardProfile.css"
+import AddPost from "./AddPost"
+import GetPost from "./FeedPage/GetPost"
+import React from "react"
+import LeftColumnHomeFeed from "./FeedPage/LeftColumn/LeftColumnHomeFeed"
+import RightColumnHomeFeed from "./FeedPage/RightColumn/RightColumnHomeFeed"
+import "./FeedPage/Post.css"
 class Feeds extends React.Component {
   state = {
     user: {},
     userExperiences: [],
-  };
+  }
 
   componentDidMount = async () => {
     try {
@@ -22,19 +22,19 @@ class Feeds extends React.Component {
               "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDk4ZWNhYTYxOWU1ZDAwMTUxZjhmN2QiLCJpYXQiOjE2MjA2MzQ3OTQsImV4cCI6MTYyMTg0NDM5NH0.uEmyf94agpe9Ah6YT4Rinls_egdc0qJQR3PnsoJvS1s",
           },
         }
-      );
+      )
       if (response.ok) {
-        const data = await response.json();
-        this.setState({ user: data });
-        console.log(this.state.user);
+        const data = await response.json()
+        this.setState({ user: data })
+        console.log(this.state.user)
       }
     } catch (error) {
-      console.log(error);
+      console.log(error)
     }
-  };
+  }
 
   render() {
-    console.log(this.state);
+    console.log(this.state)
     return (
       <>
         <Container className="feed-container">
@@ -56,8 +56,8 @@ class Feeds extends React.Component {
           </Col>
         </Container>
       </>
-    );
+    )
   }
 }
 
-export default Feeds;
+export default Feeds

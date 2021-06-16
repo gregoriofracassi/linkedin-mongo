@@ -1,5 +1,5 @@
 import "../JumboProfile.css"
-import React, { Component, createRef } from "react"
+import React, { Component } from "react"
 import { Modal, Button, Form } from "react-bootstrap"
 
 class ProfilePicModal extends Component {

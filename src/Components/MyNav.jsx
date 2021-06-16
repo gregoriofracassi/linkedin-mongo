@@ -2,15 +2,12 @@ import {
   InputGroup,
   Container,
   Form,
-  Col,
-  Row,
   FormControl,
   Navbar,
   Nav,
-  NavDropdown,
 } from "react-bootstrap"
 import React from "react"
-import { Link, withRouter } from "react-router-dom"
+import { withRouter } from "react-router-dom"
 import "../Nav.css"
 import "bootstrap-icons/font/bootstrap-icons.css"
 
@@ -52,7 +49,7 @@ class MyNav extends React.Component {
                 <InputGroup>
                   <InputGroup.Prepend>
                     <InputGroup.Text>
-                      <i id="search-icon" class="bi bi-search"></i>
+                      <i id="search-icon" className="bi bi-search"></i>
                     </InputGroup.Text>
                   </InputGroup.Prepend>
                   <FormControl

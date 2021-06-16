@@ -1,4 +1,4 @@
-import { Card, Button } from "react-bootstrap"
+import { Card } from "react-bootstrap"
 import "../CardProfile.css"
 import ModalForm from "./MyModal"
 import React from "react"

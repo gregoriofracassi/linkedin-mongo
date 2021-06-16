@@ -1,7 +1,7 @@
-import React from "react";
-import "../Post.css";
-import { Card, Col, Image, Divider, Container, Item } from "react-bootstrap";
-import "bootstrap-icons/font/bootstrap-icons.css";
+import React from "react"
+import "../Post.css"
+import { Card, Image } from "react-bootstrap"
+import "bootstrap-icons/font/bootstrap-icons.css"
 
 const LeftColumnOne = (props) => {
   return (
@@ -65,6 +65,6 @@ const LeftColumnOne = (props) => {
       </Card.Body>
       <div></div>
     </Card>
-  );
-};
-export default LeftColumnOne;
+  )
+}
+export default LeftColumnOne

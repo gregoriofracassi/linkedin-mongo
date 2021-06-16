@@ -6,7 +6,7 @@ const AccomplishmentsCard = (props) => {
     <Col xs={6}>
       <Row className="my-2">
         <Col xs={3}>
-          <img className="img-fluid px-2" src={props.img} />
+          <img alt="" className="img-fluid px-2" src={props.img} />
         </Col>
 
         <Col xs={9}>

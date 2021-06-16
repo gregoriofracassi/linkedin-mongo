@@ -11,7 +11,7 @@ const SearchContent = (props) => {
             <Link to={`/user/${pr._id}`} style={{ textDecoration: "none" }}>
               <Row className="py-1">
                 <Col xs={2}>
-                  <img src={pr.image} className="round" />
+                  <img alt="" src={pr.image} className="round" />
                 </Col>
                 <Col xs={10} className="text-deco">
                   <span className="title">
